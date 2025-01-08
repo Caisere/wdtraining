@@ -238,12 +238,17 @@ main {
     color: var(--typographyColor);
 }
 
-
+.select-div,
+.dob-div {
+    width: 100%;
+    border: none;
+}
 
 .main__container--right form .form__innerContainer input,
 .main__container--right form .form__innerContainer select {
     padding: .6rem;
     outline: none;
+    width: 100%;
 }
 
 .main__container--right form .form__innerContainer input:focus,
